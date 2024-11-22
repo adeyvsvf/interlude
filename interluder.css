@@ -1,0 +1,211 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 3200px;
+    font-family: "inter";
+    color: white;
+    background-image: url(img/interlude\ bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: none;
+    overflow-x: hidden;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 150px;
+    align-items: end;
+    margin-top: 20px;
+}
+
+.h3-txt {
+    /* background-color: blue; */
+    width: 900px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.cnt-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-1 {
+    border-style: solid; 
+    border-width: 3px;
+    border-color: #07381d;
+    border-radius: 30px;
+    height: 348px;
+    width: 1295px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(212, 200, 194, 0.26)
+}
+
+.invest-txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-2 {
+    display: flex;
+    justify-content: space-around;
+    gap:70px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.sign-btn {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+
+#join-btn {
+    background-color: #006802;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    padding: 10px 5px;
+}
+
+#join-btn:hover {
+    background-color: #0c980e;
+}
+
+.cnt-3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-3 {
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 1295px;
+    height: 500px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(165, 209, 171);
+    border-radius: 10px;
+    background-image: url(img/view-car-running-high-speed.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position-x: none;
+    margin-top: 150px;
+    /* box-shadow: 0 0 5px 2px; */
+}
+
+.cnt-4 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card-4 {
+    background-color: rgba(38, 51, 41, 60%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1295px;
+    height: 350px;
+    margin-top: 150px;
+}
+
+.terms-mail {
+    height: 250px;
+    width: 450px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.mail-form {
+    height: 250px;
+    width: 500px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stay-con {
+    height: 250px;
+    width: 450px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.fab {
+    font-size: 50px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#mailup-i{
+    width: 350px;
+    height: 40px;
+    border-style: solid;
+    border-color: #656363;
+    border-width: 2px;
+    border-radius: 5px;
+    font-size: large;
+    text-align: center;
+}
+
+#sub-btn {
+    width: 200px;
+    height:55px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius:8px;
+}
+
+.card-vid {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    margin-top: 250px;
+}
+
+.card-cash {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    margin-top: 250px;   
+}
